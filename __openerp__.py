@@ -20,12 +20,12 @@
 ##############################################################################
 
 {
-    'name': 'Cost Plus Pricing',
+    'name': 'Sales Type',
     'version': '1.0',
     'author': 'Business Tec Systems',
-    'summary': 'Creates a fields margin% and (read only) price for calculating product price to be used in pricelist',
+    'summary': 'Define type of sales for reports and further processing',
     'description': """
-Cost Plus Pricing
+Sales Type
 =======================
 Creates a fields margin% and (read only) price for calculating product price to be used in pricelist
     """,
@@ -34,7 +34,7 @@ Creates a fields margin% and (read only) price for calculating product price to 
     'depends': ['product', 'sale'],
     'sequence': 18,
     'data': [
-        'cost_plus_price.xml',
+        'sales_type.xml',
     ],
     'installable': True,
     'auto_install': False,
