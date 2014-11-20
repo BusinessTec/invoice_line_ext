@@ -1,4 +1,4 @@
-document_costa_rica
+Sales Type
 ===================
 
-Modules creates fields for id number and selection of the type of id
+Defines different types of sales orders for use in reports and further modules
