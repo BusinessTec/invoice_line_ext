@@ -11,6 +11,6 @@ class sales_type(osv.osv):
             ('retail', 'Minoristas'),
             ('spares', 'Repuestos'),      
             ('other', 'Otro'),
-            ], 'Tipo de Ventas', select=True),
+            ], 'Tipo de Ventas', select=True, required=True),
     	}
 
