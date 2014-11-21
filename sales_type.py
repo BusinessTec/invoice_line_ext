@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*- 
 
-from openerp import models, fields, api
+from openerp.osv import osv,fields,orm
 
 class sales_type(osv.osv):
 	_inherit = 'sale.order'
