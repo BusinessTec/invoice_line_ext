@@ -20,21 +20,21 @@
 ##############################################################################
 
 {
-    'name': 'Sales Type',
+    'name': 'invoice_line_ext',
     'version': '1.0',
     'author': 'Business Tec Systems',
-    'summary': 'Define type of sales for reports and further processing',
+    'summary': 'Extending model for graph view with period_id, categ_id',
     'description': """
-Sales Type
+Invoice Line Extension
 =======================
 Creates a fields margin% and (read only) price for calculating product price to be used in pricelist
     """,
     'website': 'https://businesstec.net',
     'images': [],
-    'depends': ['product', 'sale'],
+    'depends': ['account', 'product'],
     'sequence': 18,
     'data': [
-        'sales_type.xml',
+      
     ],
     'installable': True,
     'auto_install': False,
