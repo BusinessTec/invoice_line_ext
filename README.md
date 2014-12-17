@@ -1,4 +1,4 @@
-Sales Type
-===================
+Invoice Line Extension 
+========================
 
-Defines different types of sales orders for use in reports and further modules
+Extends account.invoice.model with categ_id and period_id to allow for easier reporting in graph view
